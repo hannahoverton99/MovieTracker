@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MovieTracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e277746831b700335f8fab7b5182015adb72b8a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+392974618387f50bb749e02d244e23e45069f09e")]
 [assembly: System.Reflection.AssemblyProductAttribute("MovieTracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MovieTracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

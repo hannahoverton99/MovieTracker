@@ -1,0 +1,30 @@
+﻿@model IEnumerable<MovieTracker.Classes.Films>
+
+<h2>Movies</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Genre</th>
+            <th>Rating</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var movie in Model)
+    {
+        <tr>
+            <td>@movie.MovieName</td>
+            <td>@movie.MovieGenre</td>
+            <td>@movie.Rating</td>
+            <td>
+                <!-- Add Edit, Details, and Delete links here -->
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Create")" class="btn btn-primary">Add New Movie</a>
+
