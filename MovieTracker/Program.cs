@@ -1,7 +1,24 @@
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+// var connectionString = "server=localhost!;user=movietracker;password=movietracker;database=movietracker";
+// var serverVersion = new MySqlServerVersion(new Version(8, 0, 37));
+
+// builder.Services.AddDbContext<MovieTrackerDbContext>(dbContextOptions => 
+//     dbContextOptions.UseMySql(connectionString, serverVersion));
+
+// builder.Services.AddIdentity<User, IdentityRole>(
+//     options => 
+//     {
+//         options.SignIn.RequireConfirmedAccount = false;
+//         options.Password.RequireNonAlphanumeric = false;
+//     })
+//     .AddRoles<IdentityRole>()
+//     .AddEntityFrameworkStores<MovieTrackerDbContext>().AddDefaultTokenProviders().AddDefaultUI();
 
 var app = builder.Build();
 
